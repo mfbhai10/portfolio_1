@@ -43,6 +43,14 @@ nav{
     padding: 1rem;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -75,7 +83,7 @@ ul li:hover{
 #hero{
     background: var(--dark-color);
     border-bottom: 1rem var(--lighting-color) solid;
-    height: 100vh;
+    height: 80vh;
     padding: 4rem 0;
 }
 
